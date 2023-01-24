@@ -72,4 +72,12 @@
   <project path="external/stardoc" name="platform/external/stardoc" groups="partner" />
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" groups="partner" />
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" groups="partner" />
+
+
+  <!-- Remove unused repos -->
+  <include name="snippets/remove.xml" />
+
+  <!-- Add custom repos -->
+  <include name="snippets/custom.xml" />
+
 </manifest>

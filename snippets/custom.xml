@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="custom"
+          fetch="https://github.com/tensor-gs201"
+          revision="thirteen" />
+
+    <!-- GS Kernel -->
+    <project path="private/gs-google" name="kernel_gs" remote="custom">
+        <linkfile dest="build.config" src="build.config.slider"/>
+        <linkfile dest="build_mixed.sh" src="build_mixed.sh"/>
+        <linkfile dest="build_cloudripper.sh" src="build_cloudripper.sh"/>
+        <linkfile dest="update_symbol_list_cloudripper-aosp.sh" src="update_symbol_list_cloudripper-aosp.sh"/>
+        <linkfile dest="update_symbol_list_cloudripper-staging.sh" src="update_symbol_list_cloudripper-staging.sh"/>
+        <linkfile dest=".source_date_epoch_dir" src="."/>
+    </project>
+
+</manifest>
