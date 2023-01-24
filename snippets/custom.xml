@@ -18,5 +18,6 @@
     <!-- google-modules -->
     <project path="private/google-modules/display" name="kernel_google-modules_display" remote="custom" />
     <project path="private/google-modules/gpu" name="kernel_google-modules_gpu" remote="custom" />
+    <project path="private/google-modules/gxp/gs201" name="kernel_google-modules_gxp_gs201" remote="custom" />
 
 </manifest>

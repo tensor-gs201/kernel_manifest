@@ -7,5 +7,6 @@
   <!-- Default google-modules -->
   <remove-project name="kernel/google-modules/display" />
   <remove-project name="kernel/google-modules/gpu" />
+  <remove-project name="kernel/google-modules/gxp/gs201" />
 
 </manifest>
