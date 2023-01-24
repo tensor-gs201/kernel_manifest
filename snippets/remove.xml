@@ -4,4 +4,7 @@
   <!-- Default kernel/gs -->
   <remove-project name="kernel/gs" />
 
+  <!-- Default google-modules -->
+  <remove-project name="kernel/google-modules/display" />
+
 </manifest>

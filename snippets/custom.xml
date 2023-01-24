@@ -15,4 +15,7 @@
         <linkfile dest=".source_date_epoch_dir" src="."/>
     </project>
 
+    <!-- google-modules -->
+    <project path="private/google-modules/display" name="kernel_google-modules_display" remote="custom" />
+
 </manifest>
